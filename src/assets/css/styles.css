@@ -1,0 +1,47 @@
+body{
+    background-color: black;
+}
+/* Estilo da seção da categoria */
+.category-section {
+    margin-bottom: 30px;
+}
+
+.category-section h2 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    margin: 7%;
+}
+
+/* Contêiner de vídeos */
+.video-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 7%;
+        
+}
+
+/* Item de vídeo */
+.video-item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    max-width: 250px; /* Ajuste a largura máxima dos itens de vídeo */
+    width: 100%; /* Faz com que o item ocupe a largura total disponível dentro do contêiner */
+    cursor: pointer;
+}
+
+/* Imagem de pré-visualização */
+.video-item img {
+    width: 100%; /* Faz com que a imagem ocupe toda a largura do item de vídeo */
+    height: auto; /* Mantém a proporção da imagem */
+    display: block;
+}
+
+/* Título do vídeo */
+.video-title {
+    padding: 10px;
+    text-align: center;
+    font-size: 1em;
+    color: #ffffff;
+}
