@@ -45,3 +45,43 @@ body{
     font-size: 1em;
     color: #ffffff;
 }
+/* Papel de parede */
+header {
+    font-family: Arial, sans-serif;
+    background-image: url(/vendor/banner-initial.png) ;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 100vh;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    z-index: -1;
+  }
+  .growflix{
+color: red;
+  }
+
+  .texth1{
+    font-size: 5em
+    
+  }
+.logo{
+    width: 5px;
+  }
+.header{
+margin-top: 10%;
+
+  }
+.title{
+margin-left: 10%;
+font-size: 3em
+    
+  }
+.text{
+margin-left: 10%;
+font-size: 20px
+  }
+.hr{
+    border: 2px solid ;
+}
